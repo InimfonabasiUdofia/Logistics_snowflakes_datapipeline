@@ -1,0 +1,11 @@
+
+version: 2
+
+snapshots:
+  - name: couriers_snapshot
+    relation: ref('dim_couriers')
+    config:
+      unique_key: COURIER_ID
+      strategy: timestamp
+      updated_at: COURIER_UPDATED_AT
+      schema: snapshots
