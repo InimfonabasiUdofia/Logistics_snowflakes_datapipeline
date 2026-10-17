@@ -1,0 +1,9 @@
+sources:
+  - name: logistics
+    database: logistics
+    schema: bronze
+    tables:
+      - name: customers
+      - name: couriers
+      - name: shipments
+      - name: tracking_events

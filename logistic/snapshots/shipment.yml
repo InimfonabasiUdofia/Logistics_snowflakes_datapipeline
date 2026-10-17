@@ -1,0 +1,11 @@
+
+version: 2
+
+snapshots:
+  - name: shipments_snapshot
+    relation: ref('dim_shipment')
+    config:
+      unique_key: SHIPMENT_ID
+      strategy: timestamp
+      updated_at: SHIPMENT_UPDATED_AT
+      schema: snapshots
