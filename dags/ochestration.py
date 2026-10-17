@@ -9,7 +9,7 @@ from airflow.operators.bash import BashOperator
 
 
 # Path inside the Astro Airflow container
-DBT_PROJECT_DIR = "/usr/local/airflow/Logistics_snowflakes_datapipeline/logistic"
+DBT_PROJECT_DIR = "/usr/local/airflow/logistic"
 
 
 @dag(
