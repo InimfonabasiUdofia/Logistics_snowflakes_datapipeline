@@ -1,6 +1,9 @@
 # Logistics Data Engineering Pipeline
 
 ## Overview
+![Logistics Data Engineering and SCD Type 2 Pipeline](./Logistics%20Data%20Engineering%20and%20SCD%20Type%202%20Pipeline.png)
+
+ Azure data factory incremental ingestion  to blob storage and snowflake : https://github.com/InimfonabasiUdofia/Logistics_Pipeline_Azure.git
 
 This project implements an end-to-end data engineering pipeline for a logistics platform using **Azure Data Factory (ADF), Azure Blob Storage, Snowflake, dbt, and Apache Airflow**.
 
